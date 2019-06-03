@@ -83,13 +83,13 @@
 
     <EditText
         android:id="@+id/inputRank"
-        android:layout_width="150dp"
+        android:layout_width="130dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="ランク"
-        android:textSize="24sp"
+        android:textSize="18sp"
         app:layout_constraintStart_toStartOf="@+id/textView"
         app:layout_constraintTop_toBottomOf="@+id/yearView" />
 
@@ -112,7 +112,7 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:text="レート"
-        android:textSize="24sp"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="@+id/textView15"
         app:layout_constraintStart_toEndOf="@+id/textView15" />
 
@@ -128,13 +128,13 @@
 
     <EditText
         android:id="@+id/inputWin"
-        android:layout_width="80dp"
+        android:layout_width="70dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="勝利数"
-        android:textSize="24sp"
+        android:textSize="18sp"
         app:layout_constraintStart_toStartOf="@+id/inputRank"
         app:layout_constraintTop_toBottomOf="@+id/inputRank" />
 
@@ -150,7 +150,7 @@
 
     <EditText
         android:id="@+id/inputLose"
-        android:layout_width="80dp"
+        android:layout_width="70dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
@@ -158,7 +158,7 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:text="敗北数"
-        android:textSize="24sp"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="@+id/textView18"
         app:layout_constraintStart_toEndOf="@+id/textView18"
         app:layout_constraintTop_toBottomOf="@+id/inputRank" />
@@ -175,7 +175,7 @@
 
     <EditText
         android:id="@+id/inputDraw"
-        android:layout_width="80dp"
+        android:layout_width="70dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
@@ -183,7 +183,7 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:text="引分数"
-        android:textSize="24sp"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="@+id/textView19"
         app:layout_constraintStart_toEndOf="@+id/textView19"
         app:layout_constraintTop_toBottomOf="@+id/inputRank"

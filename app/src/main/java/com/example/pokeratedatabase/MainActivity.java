@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
 
         YAxis leftAxis = mChart.getAxisLeft();
         // Y軸最大最小設定
-        leftAxis.setAxisMaximum(150f);
+        leftAxis.setAxisMaximum(2500f);
         leftAxis.setAxisMinimum(0f);
 
         // Grid横軸を破線
@@ -89,10 +89,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void setData() {
         // Entry()を使ってLineDataSetに設定できる形に変更してarrayを新しく作成
-        int data[] = {116, 111, 112, 121, 102, 83,
-                99, 101, 74, 105, 120, 112,
-                109, 102, 107, 93, 82, 99, 110,
-        };
+        int data[] = {1402, 1427, 1401, 1329, 1249, 1270};
 
         ArrayList<Entry> values = new ArrayList<>();
 
